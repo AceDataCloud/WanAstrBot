@@ -1,0 +1,37 @@
+{
+  "environment": {
+    "astrbot_version": "4.28.2",
+    "installation": "isolated editable local plugin installation",
+    "chat_model": "gpt-4.1-mini through the generic OpenAI-compatible source",
+    "marketplace_installation": "not tested; AstrBot Cloud listing pending"
+  },
+  "primary_case": {
+    "model": "wan3.0-video",
+    "action": "text2video",
+    "duration_requested": 2,
+    "resolution_requested": "480P",
+    "ratio_requested": "16:9",
+    "audio_requested": false,
+    "generation_tool": "wan_generate_video",
+    "generation_tool_calls": 1,
+    "lookup_tool": "wan_get_task",
+    "lookup_tool_calls_in_chat": 2,
+    "lookup_note": "The first lookup returned pending; the second lookup of the same task ID returned terminal success. No second generation was submitted.",
+    "task_id": "c10f2d7b-294f-41ae-bd2a-e661aef037b3",
+    "trace_id": "b76ee447-c5ca-489c-9ee9-3c8fd954e3ae",
+    "terminal_status": "succeeded",
+    "video_url": "https://platform2.cdn.acedata.cloud/wan/d4c7c745-cd06-4bb0-af08-534810574ad0.mp4",
+    "media_http_status": 200,
+    "media_content_type": "video/mp4",
+    "video_codec": "h264",
+    "audio_tracks": 0,
+    "video_width": 854,
+    "video_height": 480,
+    "duration_seconds": 2.0,
+    "usage_api_path": "/wan/videos",
+    "usage_status_code": 200,
+    "task_list_amount_credits": 1.0512367491166077,
+    "usage_deducted_credits": 0.946113074204947
+  },
+  "scope_limit": "Wan 3 text-to-video and same-task lookup were run through AstrBot chat. First-frame image, other durations, resolutions, and Wan 2.6 models were not generated. Official market installation remains open."
+}
